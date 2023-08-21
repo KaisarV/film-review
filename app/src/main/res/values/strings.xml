@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">FilmReviewApp</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    <string-array name="data_name">
+        <item>Knock at the Cabin</item>
+        <item>Black Panther: Wakanda Forever</item>
+        <item>Puss in Boots: The Last Wish</item>
+        <item>Plane</item>
+        <item>M3GAN</item>
+        <item>Little Dixie</item>
+        <item>Huesera</item>
+        <item>Shotgun Wedding</item>
+        <item>Creed III</item>
+        <item>Ant-Man and the Wasp: Quantumania</item>
+        <item>A Man Called Otto</item>
+        <item>Detective Knight: Independence</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.</item>
+        <item>Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.</item>
+        <item>Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.</item>
+        <item>After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.</item>
+        <item>A brilliant toy company roboticist uses artificial intelligence to develop M3GAN, a life-like doll programmed to emotionally bond with her newly orphaned niece. But when the doll`s programming works too well, she becomes overprotective of her new friend with terrifying results.</item>
+        <item>Erstwhile Special Forces operative Doc Alexander is asked to broker a truce with the Mexican drug cartel in secrecy. When Oklahoma Governor Richard Jeffs celebrates the execution of a high-ranking cartel member on TV, his Chief of Staff and Doc inform him about the peace he just ended. But it’s too late, as Cuco, the cartel’s hatchet man, has set his vengeful sights on Doc’s daughter Dixie.</item>
+        <item>Valeria`s joy at becoming a first-time mother is quickly taken away when she`s cursed by a sinister entity. As danger closes in, she`s forced deeper into a chilling world of dark magic that threatens to consume her.</item>
+        <item>Darcy and Tom gather their families for the ultimate destination wedding but when the entire party is taken hostage, “’Til Death Do Us Part” takes on a whole new meaning in this hilarious, adrenaline-fueled adventure as Darcy and Tom must save their loved ones—if they don’t kill each other first.</item>
+        <item>After dominating the boxing world, Adonis Creed has been thriving in both his career and family life. When a childhood friend and former boxing prodigy, Damien Anderson, resurfaces after serving a long sentence in prison, he is eager to prove that he deserves his shot in the ring. The face-off between former friends is more than just a fight. To settle the score, Adonis must put his future on the line to battle Damien - a fighter who has nothing to lose.</item>
+        <item>Super-Hero partners Scott Lang and Hope van Dyne, along with Hope`s parents Janet van Dyne and Hank Pym, and Scott`s daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.</item>
+        <item>When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down.</item>
+        <item>Detective James Knight `s last-minute assignment to the Independence Day shift turns into a race to stop an unbalanced ambulance EMT from imperiling the city`s festivities. The misguided vigilante, playing cop with a stolen gun and uniform, has a bank vault full of reasons to put on his own fireworks show... one that will strike dangerously close to Knight`s home.</item>
+    </string-array>
+
+    <string-array name="data_poster_photo">
+        <item>https://www.themoviedb.org/t/p/w1280/dm06L9pxDOL9jNSK4Cb6y139rrG.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/sv1xJUazXeYqALzczSZ3O6nkH75.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/kuf6dutpsT0vSVehic3EZIqkOBt.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/qi9r5xBgcc9KTxlOLjssEbDgO0J.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/cmWTZj9zzT9KFt3XyL0gssL7Ig8.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/7NhG3NClQ1xrc3kEwTiwFht5Y3L.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/t79ozwWnwekO0ADIzsFP1E5SkvR.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/cvsXj3I9Q2iyyIo95AecSd1tad7.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/130H1gap9lFfiTF9iDrqNIkFvC9.jpg</item>
+        <item>https://www.themoviedb.org/t/p/w1280/jrPKVQGjc3YZXm07OYMriIB47HM.jpg</item>
+    </string-array>
+
+    <string-array name="data_backdrop_photo">
+        <item>https://www.themoviedb.org/t/p/original/22z44LPkMyf5nyyXvv8qQLsbom.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/b1Y8SUb12gPHCSSSNlbX4nB3IKy.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/9Rq14Eyrf7Tu1xk0Pl7VcNbNh1n.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/dlrWhn0G3AtxYUx2D9P2bmzcsvF.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/k4V6EvpcOsu8CX10JD0H53lFXLq.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/A2avUoNFstnBhAnHiogXQs4c9Bt.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/26YLjaC1udGEmSvlM1P5eBGWO5h.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/3JSoB7eMbCd8sE8alxNiUtrNiTz.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/v2LilmCylr3bL9TCZSj6syjowZh.jpg</item>
+        <item>https://www.themoviedb.org/t/p/original/fTLMsF3IVLMcpNqIqJRweGvVwtX.jpg</item>
+    </string-array>
+
+    <string-array name="release_date">
+        <item>2023-02-01</item>
+        <item>2022-11-09</item>
+        <item>2022-12-07</item>
+        <item>2023-01-12</item>
+        <item>2022-12-28</item>
+        <item>2023-02-03</item>
+        <item>2023-02-10</item>
+        <item>2022-12-28</item>
+        <item>2023-03-01</item>
+        <item>2023-02-15</item>
+        <item>2022-12-28</item>
+        <item>2023-01-20</item>
+    </string-array>
+
+    <string-array name="vote_average">
+        <item>6.6</item>
+        <item>7.4</item>
+        <item>8.4</item>
+        <item>6.9</item>
+        <item>7.5</item>
+        <item>6.4</item>
+        <item>6.7</item>
+        <item>6.4</item>
+        <item>7.2</item>
+        <item>6.5</item>
+        <item>7.9</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="vote_count">
+        <item>778</item>
+        <item>3823</item>
+        <item>4277</item>
+        <item>770</item>
+        <item>1891</item>
+        <item>46</item>
+        <item>65</item>
+        <item>583</item>
+        <item>144</item>
+        <item>875</item>
+        <item>470</item>
+        <item>76</item>
+    </string-array>
+
+    <string-array name="lang">
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+        <item>EN</item>
+    </string-array>
+
+    <string name="film_title">Put Film Title Here</string>
+    <string name="synopsis_text">Put Synopsis Here</string>
+    <string name="release_date">Put release date here</string>
+    <string name="vote_average_text">Vote Average</string>
+    <string name="vote_average">Put Vote Here</string>
+    <string name="vote_count_text">Vote Count</string>
+    <string name="vote_count">Put Vote Count here</string>
+    <string name="lang_text">Original Language</string>
+    <string name="lang">Put Lang here</string>
+
+    <string name="name">Kaisar Fredi Valentino</string>
+    <string name="email">a032dsx1685@bangkit.academy</string>
+    <string name="back_home">Back Home</string>
+    <string name="back">Back</string>
+
+
+</resources>

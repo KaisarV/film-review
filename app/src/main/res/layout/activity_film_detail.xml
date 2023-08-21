@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                tools:src="@tools:sample/avatars"/>
+
+            <TextView
+                style="@style/TextContent.Small.White"
+                android:padding="8dp"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:background="#4D000000"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="bottom" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/film_title"
+            style="@style/TextContent"
+            android:textSize="32sp"
+            android:text="@string/film_title"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/release_date"
+            style="@style/TextContent.Subtitle"
+            android:text="@string/release_date"
+            android:layout_marginBottom="16dp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/synopsis"
+            style="@style/TextContent"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/synopsis_text"
+            android:textColor="@android:color/black" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/vote_average_text" />
+
+                <TextView
+                    android:id="@+id/vote_avg"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/vote_average" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/vote_count_text" />
+
+                <TextView
+                    android:id="@+id/vote_cnt"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/vote_count" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/lang_text" />
+
+                <TextView
+                    android:id="@+id/lan"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/lang" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@id/back_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/back"
+            android:layout_marginLeft="16sp"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
